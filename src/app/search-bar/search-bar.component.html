@@ -1,0 +1,7 @@
+<input type="text" placeholder = "search name" [(ngModel)]="searchText"/>
+<button (click)="search.emit(searchText)">Search</button>
+
+<input name="gender" type="radio" value="Nu" [(ngModel)]="gender"/>Nu
+<input name="gender" type="radio" value="Nam" [(ngModel)]="gender"/>Nam
+
+{{gender}}
